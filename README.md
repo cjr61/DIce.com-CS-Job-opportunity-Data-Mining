@@ -1,5 +1,10 @@
-# DIce.com-CS-Job-opportunity-Data-Mining
+# Data-Mining-Dice.com
+This is the term project for Dr. CC Chan's Data Mining Class at the University of Akron.
+Our program DiceMining.py takes in the csv file 'modifieddataset2.csv' and outputs a matrix of 
+job locations and required skills at those locations. It is a rather large dataset so the program will
+run for somewhere between 10-15 minutes depending on the machine. 
 
-This Program takes a dataset from Dice.com that includes locations and job descriptions for Computer science opportunities.
-Using machine learning, the job descriptions have key words extrapolated from them and organized by location.
-The result is information on which skills (such as C#, Java, etc.) are needed in which locations allowing users to know where they can search for a job that best fits their skillset. 
+We used many different library functions such as NLTK and pandas so those libraries 
+will need to be installed to run the program properly
+
+The results of the transformed file can be seen in StatesTotals.xlsx
